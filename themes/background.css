@@ -1,5 +1,15 @@
 body::before {
   content: "";
+  /* color: #274C77;
+  color: #BC4B51;
+  color: #F4E285;
+
+
+  color: #6096BA;
+  color: #FAF3E0;
+  color: #BC4B51; */
+
+
   position: absolute;
   z-index: -1;
   width: 100vw;
