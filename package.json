@@ -1,0 +1,22 @@
+{
+  "name": "candlelight-paper-theme",
+  "displayName": "Candlelight Paper Theme",
+  "description": "A warm, paper-style theme like candlelight for VSCode",
+  "version": "0.0.1",
+  "publisher": "shark_B",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Candlelight Paper",
+        "uiTheme": "vs",
+        "path": "./themes/candlelight-theme.json"
+      }
+    ]
+  }
+}

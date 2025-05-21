@@ -1,0 +1,60 @@
+{
+  "name": "Candlelight Paper",
+  "type": "light",
+  "colors": {
+    "editor.background": "#FAF3E0",
+    "editor.foreground": "#333333"
+  },
+  "tokenColors": [
+    {
+      "scope": "comment",
+      "settings": {
+        "foreground": "#7A7A7A",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": "keyword",
+      "settings": {
+        "foreground": "#B45F06",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "string",
+      "settings": {
+        "foreground": "#8A6E3A"
+      }
+    },
+    {
+      "scope": "constant.numeric",
+      "settings": {
+        "foreground": "#A36D4E"
+      }
+    },
+    {
+      "scope": "variable",
+      "settings": {
+        "foreground": "#4B4B4B"
+      }
+    },
+    {
+      "scope": "support.function, entity.name.function",
+      "settings": {
+        "foreground": "#5C5C5C"
+      }
+    },
+    {
+      "scope": "meta.array",
+      "settings": {
+        "foreground": "#926B34"
+      }
+    },
+    {
+      "scope": "constant.language",
+      "settings": {
+        "foreground": "#6E4B2A"
+      }
+    }
+  ]
+}
