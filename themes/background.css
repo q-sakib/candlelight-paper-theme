@@ -1,0 +1,10 @@
+body::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  width: 100vw;
+  height: 100vh;
+  background: url("/media/preview.png") no-repeat center center fixed;
+  background-size: cover;
+  opacity: 0.08; /* light overlay */
+}

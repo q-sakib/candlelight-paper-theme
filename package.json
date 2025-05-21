@@ -1,22 +1,62 @@
 {
   "name": "candlelight-paper-theme",
   "displayName": "Candlelight Paper Theme",
-  "description": "A warm, paper-style theme like candlelight for VSCode",
-  "version": "0.0.1",
-  "publisher": "shark_B",
+  "description": "Warm light and dark themes with candlelight vibes",
+  "version": "1.0.0",
+  "publisher": "SharkB",
   "engines": {
     "vscode": "^1.70.0"
   },
   "categories": [
     "Themes"
   ],
+  "activationEvents": [
+    "onCommand:theme.switchToCandlelightLight",
+    "onCommand:theme.switchToCandlelightDark"
+  ],
+  "main": "./extension.js",
   "contributes": {
     "themes": [
       {
-        "label": "Candlelight Paper",
+        "label": "Candlelight Paper Light",
         "uiTheme": "vs",
-        "path": "./themes/candlelight-theme.json"
+        "path": "./themes/candlelight-paper-light.json"
+      },
+      {
+        "label": "Candlelight Paper Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/candlelight-paper-dark.json"
       }
-    ]
+    ],
+    "commands": [
+      {
+        "command": "theme.switchToCandlelightLight",
+        "title": "Switch to Candlelight Paper Light"
+      },
+      {
+        "command": "theme.switchToCandlelightDark",
+        "title": "Switch to Candlelight Paper Dark"
+      }
+    ],
+    "configuration": {
+      "title": "Candlelight Theme Settings",
+      "properties": {
+        "candlelightTheme.opacity": {
+          "type": "number",
+          "default": 0.08,
+          "description": "Set background image opacity (used with custom CSS)"
+        },
+        "candlelightTheme.enableGlow": {
+          "type": "boolean",
+          "default": false,
+          "description": "Enable subtle glow effect for active elements"
+        }
+      }
+    }
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/q-sakib/candlelight-paper-theme"
   }
 }

@@ -1,10 +1,18 @@
 {
   "name": "Candlelight Paper",
   "type": "light",
-  "colors": {
-    "editor.background": "#FAF3E0",
-    "editor.foreground": "#333333"
-  },
+"colors": {
+  "editor.background": "#FAF3E0",
+  "editor.foreground": "#333333",
+  "editorLineNumber.foreground": "#B38B6D",
+  "tab.activeBackground": "#FFDFA0",
+  "tab.inactiveBackground": "#F4EBD0",
+  "tab.activeForeground": "#333333",
+  "tab.inactiveForeground": "#7A7A7A",
+  "activityBar.background": "#FCE7C0",
+  "sideBar.background": "#FFF8E1",
+  "statusBar.background": "#F4D9A5"
+},
   "tokenColors": [
     {
       "scope": "comment",
