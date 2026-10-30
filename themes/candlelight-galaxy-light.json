@@ -2,25 +2,25 @@
   "name": "Candlelight Galaxy Light",
   "type": "light",
   "colors": {
-    "editor.background": "#FAF3E0", // Paper / Light Nebula
-    "editor.foreground": "#2D2A26", // Charcoal text
-    "editorLineNumber.foreground": "#A4C3B2", // Faint moon glow
-    "editorCursor.foreground": "#EB5E28", // Mars / Asteroid heat
-    "editor.selectionBackground": "#F4E28560", // Candle flame
+    "editor.background": "#FAF3E0",
+    "editor.foreground": "#2D2A26",
+    "editorLineNumber.foreground": "#A4C3B2",
+    "editorCursor.foreground": "#EB5E28",
+    "editor.selectionBackground": "#F4E28560",
     "editor.inactiveSelectionBackground": "#F4E28530",
     "editor.lineHighlightBackground": "#F5CB5C33",
     "editorIndentGuide.background": "#E8DAB5",
     "editorIndentGuide.activeBackground": "#F4A259",
-    "editorBracketMatch.background": "#BC4B5133", // Cosmic match
+    "editorBracketMatch.background": "#BC4B5133",
     "editorBracketMatch.border": "#BC4B51",
-    "activityBar.background": "#274C77", // Space horizon
+    "activityBar.background": "#274C77",
     "activityBar.foreground": "#F4E285",
     "activityBarBadge.background": "#F4A259",
     "activityBarBadge.foreground": "#FAF3E0",
     "sideBar.background": "#FFF8E1",
     "sideBar.foreground": "#403D39",
     "sideBarSectionHeader.background": "#A3CEF1",
-    "statusBar.background": "#6096BA", // Deep sky blue
+    "statusBar.background": "#6096BA",
     "statusBar.foreground": "#FAF3E0",
     "statusBar.debuggingBackground": "#BC4B51",
     "titleBar.activeBackground": "#F5CB5C",
@@ -35,14 +35,73 @@
     "panel.background": "#FFF8E1",
     "panel.border": "#E6D9C0",
     "terminal.background": "#FAF3E0",
-    "terminal.foreground": "#403D39"
+    "terminal.foreground": "#403D39",
+    "focusBorder": "#1DD3B0",
+    "widget.shadow": "#C0A88266",
+    "list.activeSelectionBackground": "#F5CB5C99",
+    "list.activeSelectionForeground": "#2D2A26",
+    "list.inactiveSelectionBackground": "#F4E28566",
+    "list.inactiveSelectionForeground": "#403D39",
+    "list.hoverBackground": "#F4E28599",
+    "list.hoverForeground": "#2D2A26",
+    "list.focusBackground": "#F5CB5C99",
+    "list.focusForeground": "#2D2A26",
+    "list.highlightForeground": "#1DD3B0",
+    "quickInput.background": "#FFF8E1",
+    "quickInput.foreground": "#2D2A26",
+    "quickInputList.focusBackground": "#F5CB5C99",
+    "quickInputList.focusForeground": "#2D2A26",
+    "menu.background": "#FFF8E1",
+    "menu.foreground": "#2D2A26",
+    "menu.selectionBackground": "#F5CB5C99",
+    "menu.selectionForeground": "#2D2A26",
+    "menu.separatorBackground": "#E8DAB5",
+    "menu.border": "#E8DAB5",
+    "dropdown.background": "#FFF8E1",
+    "dropdown.border": "#E8DAB5",
+    "dropdown.foreground": "#2D2A26",
+    "input.placeholderForeground": "#6B908088",
+    "button.hoverBackground": "#086375",
+    "scrollbarSlider.activeBackground": "#1DD3B066",
+    "editorWidget.background": "#FFF8E1",
+    "editorWidget.foreground": "#2D2A26",
+    "editorWidget.border": "#E8DAB5",
+    "editorSuggestWidget.background": "#FFF8E1",
+    "editorSuggestWidget.border": "#E8DAB5",
+    "editorSuggestWidget.foreground": "#2D2A26",
+    "editorSuggestWidget.highlightForeground": "#1DD3B0",
+    "editorSuggestWidget.selectedBackground": "#F5CB5C99",
+    "editorSuggestWidget.selectedForeground": "#2D2A26",
+    "editorHoverWidget.background": "#FFF8E1",
+    "editorHoverWidget.foreground": "#2D2A26",
+    "editorHoverWidget.border": "#E8DAB5",
+    "notifications.background": "#FFF8E1",
+    "notifications.foreground": "#2D2A26",
+    "notifications.border": "#E8DAB5",
+    "notificationsErrorIcon.foreground": "#BC4B51",
+    "notificationsWarningIcon.foreground": "#C08A10",
+    "notificationsInfoIcon.foreground": "#2A6496",
+    "peekView.border": "#1DD3B0",
+    "peekViewEditor.background": "#FAF3E0",
+    "peekViewResult.background": "#FFF8E1",
+    "peekViewResult.selectionBackground": "#F5CB5C99",
+    "peekViewResult.selectionForeground": "#2D2A26",
+    "peekViewTitle.background": "#F4E285",
+    "peekViewTitleLabel.foreground": "#2D2A26",
+    "peekViewTitleDescription.foreground": "#6B9080",
+    "diffEditor.insertedTextBackground": "#8CB36920",
+    "diffEditor.removedTextBackground": "#BC4B5120",
+    "gitDecoration.addedResourceForeground": "#5A7A35",
+    "gitDecoration.modifiedResourceForeground": "#C08A10",
+    "gitDecoration.deletedResourceForeground": "#BC4B51",
+    "gitDecoration.untrackedResourceForeground": "#5A7A6E"
   },
   "tokenColors": [
     {
       "name": "Comments",
       "scope": "comment",
       "settings": {
-        "foreground": "#6B9080", // Moon Dust
+        "foreground": "#6B9080",
         "fontStyle": "italic"
       }
     },
@@ -50,7 +109,7 @@
       "name": "Keywords",
       "scope": "keyword",
       "settings": {
-        "foreground": "#BC4B51", // Nebula flare
+        "foreground": "#BC4B51",
         "fontStyle": "bold"
       }
     },
@@ -58,91 +117,91 @@
       "name": "Strings",
       "scope": "string",
       "settings": {
-        "foreground": "#8CB369" // Comet trail
+        "foreground": "#8CB369"
       }
     },
     {
       "name": "Numbers",
       "scope": "constant.numeric",
       "settings": {
-        "foreground": "#EE6055" // Meteor spark
+        "foreground": "#EE6055"
       }
     },
     {
       "name": "Variables",
       "scope": "variable",
       "settings": {
-        "foreground": "#403D39" // Deep matter
+        "foreground": "#403D39"
       }
     },
     {
       "name": "Functions",
       "scope": "support.function, entity.name.function, meta.function-call",
       "settings": {
-        "foreground": "#5B8E7D" // Saturn rings
+        "foreground": "#5B8E7D"
       }
     },
     {
       "name": "Arrow Functions",
       "scope": "storage.type.function.arrow",
       "settings": {
-        "foreground": "#1DD3B0" // Plasma jet
+        "foreground": "#1DD3B0"
       }
     },
     {
       "name": "Callback Functions",
       "scope": "meta.function-call.arguments",
       "settings": {
-        "foreground": "#086375" // Subspace logic
+        "foreground": "#086375"
       }
     },
     {
       "name": "Classes",
       "scope": "entity.name.type.class, support.class",
       "settings": {
-        "foreground": "#F4A259" // Orbital ring
+        "foreground": "#F4A259"
       }
     },
     {
       "name": "Objects",
       "scope": "meta.object-literal.key",
       "settings": {
-        "foreground": "#B2967D" // Dust cluster
+        "foreground": "#B2967D"
       }
     },
     {
       "name": "Arrays",
       "scope": "meta.array",
       "settings": {
-        "foreground": "#A4C3B2" // Stellar data
+        "foreground": "#A4C3B2"
       }
     },
     {
       "name": "Constants",
       "scope": "constant.language, constant.character",
       "settings": {
-        "foreground": "#EB5E28" // Core pulse
+        "foreground": "#EB5E28"
       }
     },
     {
       "name": "Interfaces",
       "scope": "entity.name.type.interface",
       "settings": {
-        "foreground": "#F5CB5C" // Interface orbit
+        "foreground": "#F5CB5C"
       }
     },
     {
       "name": "Properties",
       "scope": "variable.other.property",
       "settings": {
-        "foreground": "#6096BA" // System node
+        "foreground": "#6096BA"
       }
     },
     {
       "name": "This Keyword",
       "scope": "variable.language.this",
       "settings": {
-        "foreground": "#A3CEF1", // Blue nova
+        "foreground": "#A3CEF1",
         "fontStyle": "italic"
       }
     }

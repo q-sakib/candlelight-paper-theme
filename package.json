@@ -2,7 +2,7 @@
   "name": "candlelight-paper-theme",
   "displayName": "Candlelight Paper Theme",
   "description": "Warm light and dark themes with candlelight vibes",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "publisher": "SharkB",
   "engines": {
     "vscode": "^1.70.0"
@@ -26,6 +26,56 @@
         "label": "Candlelight Paper Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/candlelight-paper-dark.json"
+      },
+      {
+        "label": "Candlelight Galaxy Light",
+        "uiTheme": "vs",
+        "path": "./themes/candlelight-galaxy-light.json"
+      },
+      {
+        "label": "Candlelight Galaxy Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/candlelight-galaxy-dark.json"
+      },
+      {
+        "label": "Ocean Light",
+        "uiTheme": "vs",
+        "path": "./themes/ocean-light.json"
+      },
+      {
+        "label": "Ocean Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ocean-dark.json"
+      },
+      {
+        "label": "Mountain Light",
+        "uiTheme": "vs",
+        "path": "./themes/mountain-light.json"
+      },
+      {
+        "label": "Mountain Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/mountain-dark.json"
+      },
+      {
+        "label": "Forest Light",
+        "uiTheme": "vs",
+        "path": "./themes/forest-light.json"
+      },
+      {
+        "label": "Forest Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/forest-dark.json"
+      },
+      {
+        "label": "Desert Light",
+        "uiTheme": "vs",
+        "path": "./themes/desert-light.json"
+      },
+      {
+        "label": "Desert Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/desert-dark.json"
       }
     ],
     "commands": [
