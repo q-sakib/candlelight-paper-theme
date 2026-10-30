@@ -1,140 +1,124 @@
 # Candlelight Paper Theme
 
-> Warm, nature-inspired VS Code themes for developers who code past midnight.
+**12 nature-inspired VS Code themes built for developers who code past midnight.**
 
-12 themes across 6 natural environments — each with a dark and light variant. Built for eye comfort, semantic clarity, and long coding sessions on real-world stacks.
+Warm, eye-friendly palettes drawn from real environments — each one carefully tuned for semantic clarity across the languages you actually use every day.
 
 ---
 
 ## Themes
 
-| Theme | Dark | Light | Inspiration |
-|-------|------|-------|-------------|
-| **Candlelight Paper** | Warm charcoal `#1C1A19` | Aged parchment `#FAF3E0` | Candlelight on old paper |
-| **Candlelight Galaxy** | Deep void `#1C1A19` | Light nebula `#FAF3E0` | Cosmic warmth |
-| **Ocean** | Midnight depth `#0B1724` | Sea spray `#EBF4FB` | Coral reefs, bioluminescence |
-| **Mountain** | Volcanic coal `#17130F` | Pale limestone `#F2EDE8` | Lava, granite, glacial ice |
-| **Forest** | Forest floor `#0D1510` | Morning mist `#EDF5E8` | Emerald moss, wild berries |
-| **Desert** | Desert night `#1A1308` | Bleached sand `#FDF5E0` | Sunset embers, oasis teal |
+### Candlelight Collection
+| | Theme | Feel |
+|-|-------|------|
+| 🕯️ | **Candlelight Paper Dark** | Warm charcoal, aged parchment tones |
+| 🕯️ | **Candlelight Paper Light** | Soft daylight on cream paper |
+| 🌌 | **Candlelight Galaxy Dark** | Deep void with warm starlight |
+| 🌌 | **Candlelight Galaxy Light** | Light nebula, cosmic warmth |
+
+### Nature Collection
+| | Theme | Feel |
+|-|-------|------|
+| 🌊 | **Ocean Dark** | Midnight depth — coral, bioluminescence, deep sea |
+| 🌊 | **Ocean Light** | Coastal morning — sea spray, kelp, tide pools |
+| 🏔️ | **Mountain Dark** | Volcanic coal — lava, granite, glacial ice |
+| 🏔️ | **Mountain Light** | Pale limestone — alpine meadow, clear sky |
+| 🌲 | **Forest Dark** | Deep forest floor — emerald, wild berries, honeycomb |
+| 🌲 | **Forest Light** | Morning mist — dew on ferns, sunlit clearing |
+| 🏜️ | **Desert Dark** | Desert night — sunset embers, oasis teal, sand dunes |
+| 🏜️ | **Desert Light** | Bleached noon — adobe, cactus sage, desert sky |
 
 ---
 
-## Language Coverage
+## Language Support
 
-120+ token rules covering every major language and framework:
+Built from a real daily stack. Token rules cover every major language and framework:
 
-**Web & Frontend**
-- JavaScript / TypeScript — variables, constants, parameters, generics, enums, decorators, template literals
-- Angular — `[binding]`, `(event)`, `[(ngModel)]`, structural directives, `@Component`, `@Injectable`
-- React / JSX / TSX — component tags, JSX attributes, expression blocks
-- HTML — tags, attributes, attribute values, DOCTYPE
-- CSS / SCSS — selectors, properties, units, pseudo-classes, pseudo-elements, `@media`
-- Tailwind CSS
+**Frontend**
+- JavaScript · TypeScript · JSX · TSX
+- Angular — `[bindings]` `(events)` `[(ngModel)]` `@Component` `@Injectable` structural directives
+- React · Next.js · Vite
 
 **Backend**
-- PHP — `$variables`, `$this`, built-in functions, heredoc, namespaces, `#[Attributes]`
-- Laravel Blade — `@if`, `@foreach`, `@extends`, `{{ }}`, `{{-- --}}` comments
-- C# / .NET — access modifiers, `[Attributes]`, LINQ keywords, generics, interpolated strings, `///` XML docs
-- Python — decorators, f-strings, docstrings, dunder methods, `self`/`cls`, built-in types
-- C++ — preprocessor directives, templates, namespaces, pointer operators
+- PHP · Laravel Blade (`@if` `@foreach` `@extends` `{{ }}` comments)
+- C# · .NET — attributes `[...]`, LINQ, async/await, XML docs `///`
+- Python — decorators, f-strings, docstrings, dunder methods
+- C++ — preprocessor, templates, namespaces
 
-**Data & Docs**
-- MySQL / PostgreSQL — DML/DDL keywords in bold, functions, `--` comments
-- Markdown — heading hierarchy H1–H6, bold, italic, inline code, blockquote, link text, fenced code
-- JSON, YAML
+**Data & Markup**
+- MySQL · PostgreSQL — DML/DDL keywords bold, functions, `--` comments
+- HTML · CSS · SCSS · Tailwind CSS
+- Markdown — heading hierarchy, bold, italic, inline code, blockquote, links
 
-**Comment types differentiated:**
-`/** doc */` · `/* block */` · `// line` · `-- SQL` · `{{-- Blade --}}` · `# shebang`
+**Comment types handled separately:**
+`/** doc */`  ·  `/* block */`  ·  `// line`  ·  `-- SQL`  ·  `{{-- Blade --}}`
 
 ---
 
-## Color Philosophy
+## Color Design
 
-Each theme is built around a **12-role semantic palette** derived from its natural environment:
+Each theme follows a 12-role semantic palette — every color has a specific meaning that stays consistent across all languages.
 
-| Role | Ocean Dark | Mountain Dark | Forest Dark | Desert Dark |
-|------|-----------|--------------|------------|------------|
-| Keywords | Coral `#E06C7A` | Lava red `#D44030` | Wild berry `#D05870` | Sunset ember `#E85030` |
-| Functions | Turquoise `#29B6A8` | Glacial teal `#50A8B0` | Emerald `#3AAA60` | Oasis `#38A880` |
-| Strings | Sea glass `#56B88A` | Lichen `#88A850` | Fresh leaf `#80CC58` | Cactus sage `#88B040` |
-| Numbers | Golden fish `#F0C040` | Mineral amber `#D4A830` | Honeycomb `#E8B838` | Gold sand `#D8A030` |
-| Classes | Seahorse `#E8834A` | Basalt `#B06840` | Tree bark `#C07838` | Sandstone `#D07838` |
-| Interfaces | Sky water `#6EB8E8` | Glacial blue `#78B8D8` | Canopy sky `#70B8CC` | Desert sky `#70A8D0` |
-| Decorators | Anemone violet `#B880F0` | Amethyst `#9868C8` | Wild orchid `#E058A0` | Desert flower `#A058C8` |
-| Comments | Deep sea `#3A7A8A` | Granite `#6A5E54` | Lichen shadow `#3A7848` | Dry dust `#7A6838` |
+| Role | What it colors |
+|------|---------------|
+| Keywords | Control flow, storage modifiers — `if` `const` `async` |
+| Functions | Definitions and calls |
+| Strings | All string types including template literals |
+| Numbers | Numeric constants and booleans |
+| Classes | Class names and enums |
+| Interfaces | Types, interfaces, generics |
+| Properties | Object keys, member access |
+| Decorators | `@annotations` — stand out from everything else |
+| Parameters | Function arguments — distinct from local variables |
+| Comments | Dimmer than code — readable but recessed |
 
-**Eye comfort rules applied:**
-- All foreground colors ≥ 4.5:1 contrast ratio against background (WCAG AA)
-- Comments intentionally dim (~3:1) — readable but visually recessed
-- Active state > hover > inactive — proper visual hierarchy throughout
-- No same color used for background and border anywhere
-- Warm tones reserved for dark bases; cool tones (sky blue) reserved for types/interfaces only
+**Eye comfort:**
+- All text meets WCAG AA contrast (4.5:1 minimum against background)
+- Comments intentionally subtle — present but not distracting
+- No blue-heavy palettes on dark themes — warm tones throughout
+- Proper visual hierarchy: active › hover › inactive everywhere
 
 ---
 
 ## Full UI Coverage
 
-Beyond token colors, all themes include proper colors for:
+Every UI surface is themed — not just code:
 
-- Command palette (`quickInput.*`)
-- Autocomplete widget (`editorSuggestWidget.*`)
-- Hover cards (`editorHoverWidget.*`)
-- Context menus (`menu.*`)
-- Peek view / Go to Definition (`peekView.*`)
+- Command palette · Autocomplete widget · Hover cards
+- Context menus · Peek view · Breadcrumbs
 - Bracket pair colorization (6 levels)
 - Git decorations — added / modified / deleted / untracked
-- Diff editor
-- Focus borders, widget shadows, scrollbars
-- Notifications with correct error / warning / info icon colors
+- Diff editor · Focus borders · Widget shadows · Scrollbars
+- Notification icons with correct error / warning / info colors
 
 ---
 
 ## Installation
 
-**Via VS Code:**
-1. Open Extensions (`Ctrl+Shift+X` / `Cmd+Shift+X`)
-2. Search `Candlelight Paper Theme`
-3. Click Install
+**VS Code Extensions panel:**
+Search `Candlelight Paper Theme` → Install
 
-**Via Command Line:**
+**Command line:**
 ```bash
 code --install-extension SharkB.candlelight-paper-theme
 ```
 
----
-
-## Switching Themes
-
-`Ctrl+Shift+P` / `Cmd+Shift+P` → **Preferences: Color Theme** → select any variant
-
-Or use the built-in commands:
-- `Switch to Candlelight Paper Light`
-- `Switch to Candlelight Paper Dark`
+**Switch theme:**
+`Cmd+Shift+P` → `Preferences: Color Theme` → pick any of the 12 variants
 
 ---
 
-## Configuration
+## Settings
 
 ```json
 "candlelightTheme.opacity": 0.08,
 "candlelightTheme.enableGlow": false
 ```
 
-| Setting | Type | Default | Description |
-|---------|------|---------|-------------|
-| `opacity` | number | `0.08` | Background image opacity (used with custom CSS) |
-| `enableGlow` | boolean | `false` | Subtle glow effect on active elements |
-
 ---
 
-## Contributing
+## Made by
 
-Issues and PRs welcome at [github.com/q-sakib/candlelight-paper-theme](https://github.com/q-sakib/candlelight-paper-theme)
+**q-sakib** — full-stack developer
 
-Requesting a language or missing token scope? Open an issue with the language and a sample file.
-
----
-
-## License
-
-MIT © Sakib
+[GitHub](https://github.com/q-sakib) · [LinkedIn](https://linkedin.com/in/q-sakib)
