@@ -1,9 +1,26 @@
 {
   "name": "candlelight-paper-theme",
   "displayName": "Candlelight Paper Theme",
-  "description": "Warm light and dark themes with candlelight vibes",
+  "description": "12 nature-inspired VS Code themes — Candlelight, Galaxy, Ocean, Mountain, Forest, Desert. Eye-friendly palettes for long coding sessions.",
   "version": "1.1.0",
   "publisher": "SharkB",
+  "icon": "media/preview.png",
+  "galleryBanner": {
+    "color": "#1C1A19",
+    "theme": "dark"
+  },
+  "keywords": [
+    "theme",
+    "color-theme",
+    "dark",
+    "light",
+    "nature",
+    "candlelight",
+    "ocean",
+    "forest",
+    "desert",
+    "mountain"
+  ],
   "engines": {
     "vscode": "^1.70.0"
   },

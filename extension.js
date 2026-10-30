@@ -1,11 +1,11 @@
-import { commands, workspace } from 'vscode';
+const { commands, workspace } = require('vscode');
 
 function activate(context) {
-  let switchToLight = commands.registerCommand('theme.switchToCandlelightLight', () => {
+  const switchToLight = commands.registerCommand('theme.switchToCandlelightLight', () => {
     workspace.getConfiguration().update('workbench.colorTheme', 'Candlelight Paper Light', true);
   });
 
-  let switchToDark = commands.registerCommand('theme.switchToCandlelightDark', () => {
+  const switchToDark = commands.registerCommand('theme.switchToCandlelightDark', () => {
     workspace.getConfiguration().update('workbench.colorTheme', 'Candlelight Paper Dark', true);
   });
 
@@ -14,7 +14,4 @@ function activate(context) {
 
 function deactivate() {}
 
-export default {
-  activate,
-  deactivate
-};
+module.exports = { activate, deactivate };
